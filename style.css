@@ -1,0 +1,225 @@
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+body{
+        
+  background-image: url("paper.jpg");
+}
+  a{
+	color:#24A7CF;
+}
+a:hover{
+	color:#24A7CF;
+}
+.navbar-inverse{  background-color: #01417e;
+}
+
+.bg-deepblue {
+  background-color: #01417e;
+}
+.navm {
+    margin-bottom: 17px;
+}
+
+.bg-teal {
+  background-color: #01417e;
+}
+.navbar {
+    margin-bottom: 0px;
+    border:none;
+}
+.pull-left {
+    float: left!important;
+    color: white;
+    font-size: 35px;
+    padding-left: 10px;
+    margin-top: -30px;
+}
+
+.nav li a
+{
+	/*height: 78px;*/
+	/*text-align: center;*/
+/*	line-height: 50px;*/
+	color: #FFFFFF;
+}
+.nav-justified{
+        width: 45%;
+    float: right;
+  
+}
+
+.nav li:hover
+{
+	background-color: #D3D3D3;
+}
+
+.nav-tabs{
+  background-color:#01417e;
+	border-bottom: hidden;
+}
+
+.nav-pills{
+  background-color:#01417e;
+	border-bottom: hidden;
+}
+.jumbotron{
+	height: 200px;
+	overflow: hidden;
+    background-color:rgb(1, 65, 126);;
+}
+.jumbotron #details{
+	position: absolute;
+	color:white;
+}
+.jumbotron #details span{
+	color:#24A7CF;
+}
+.jumbotron img {
+	width:9%;
+}
+section .widgets{
+		margin-bottom:20px; 
+}
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 0px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+   
+      height: 100%;
+    }
+.menu2{
+         border-radius: 25px;
+    background: #73AD21;
+    display: block;
+}
+.image.avatar {
+			border-radius: 100%;
+			overflow: hidden;
+		}
+
+			.image.avatar img {
+				border-radius: 100%;
+				display: block;
+				width: 100%;
+			}
+    /* Set black background color, white text and some padding */
+.box1{
+ border-radius: 25px;
+    float: left;
+        width: 417px;
+    height: 260px;
+    margin-top: 20px;
+    margin-right: 34px;
+  background-color: white;
+        margin-bottom: 40px;
+}
+.box2{
+ border-radius: 25px;
+    float: left;
+        width: 417px;
+    height: 260px;
+    margin-top: 20px;
+    margin-right: 17px;
+  background-color: white;
+        margin-bottom: 40px;
+}
+.submenu{
+     border-radius: 25px;
+   
+    display: block;
+    height: 440px;
+    width: 312px;
+    margin-top: 20px;
+        margin-top: 20px;
+       margin-right: -50px;
+    background-color: aqua;
+}
+.subview{
+            
+ border-radius: 25px;
+          display: block;
+    height: 440px;
+    width: 615px;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 22px;
+    background-color: aqua;
+    
+}
+
+    footer {
+     
+      
+      padding: 0px;
+    }
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+     
+}
+    #footer{display:inline; float:left; width:100%; margin-bottom:0px}
+.footer_top{background-color:rgb(1, 65, 126);; color:#ddd; display:inline; float:left; padding:10px 30px 48px; width:100%}
+.footer_widget{display:inline; float:left; width:100%; min-height:310px}
+.footer_widget > h2{border-bottom:3px solid #666; font-family:Oswald,arial,Georgia,serif; font-size:16px; padding:10px 0; text-transform:uppercase}
+.tag_nav{}
+.tag_nav li{}
+.tag_nav li a{border-bottom:1px solid #ddd; color:#ccc; display:block; padding:6px 6px 6px 0; -webkit-transition:all 0.5s; -o-transition:all 0.5s; transition:all 0.5s}
+.tag_nav li a:hover{padding-left:10px}
+.footer_bottom{float:left; display:inline; width:100%; padding:10px 30px; background-color:#303030; color:#ccc}
+.copyright{float:left; width:50%; padding-top:5px; text-align:left}
+.copyright a{color:#ccc}
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 0px;
+      }
+      .row.content {height:auto;} 
+    }
+      .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+         
+      width: 70%;
+      margin: auto;
+  }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+     .pull-left {
+    padding-left: 70px;
+    margin-top: -40px;
+         font-size: 20px;
+    }
+    
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+ .box1
+    
+    {
+        width: 40%;
+        height: 250px;
+        margin-left: 50px;
+    }
+     .box2
+    
+    {
+        width: 40%;
+         height: 250px;
+    }
+    .pull-left {
+   
+    padding-left: 85px;
+    margin-top: -45px;
+  font-size: 30px;
+}
+}
+
+
+  </style>
